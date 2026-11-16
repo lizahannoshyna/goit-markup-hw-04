@@ -51,7 +51,7 @@ display: flex;
 
 .social-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   list-style: none;
   margin: 0px;
 }
@@ -59,14 +59,16 @@ display: flex;
 .social-link {
   width: 40px;
   height: 40px;
-  background-color: #4D5AE5;
-  color: #FFFFFF;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover, .social-link:focus {
-  background-color: #404BBF;
+.social-link:hover,
+.social-link:focus {
+  background-color: #31d0aa;
 }
