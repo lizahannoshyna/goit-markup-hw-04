@@ -1,12 +1,24 @@
-.features-list{
+.features-list {
   display: flex;
   gap: 24px;
   padding: 0px;
   margin: 0px;
 }
 
-.features-item{
+.features-item {
   width: calc((100% - 72px) / 4);
+}
+
+.features-item__icon-wrp {
+ 
+  height:112px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #F4F4FD;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  margin-bottom: 8%;
 }
 
 .features-item__header {
@@ -24,5 +36,3 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-
