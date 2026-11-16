@@ -10,7 +10,6 @@
 }
 
 .features-item__icon-wrp {
- 
   height:112px;
   display:flex;
   justify-content:center;
@@ -18,7 +17,7 @@
   background-color: #F4F4FD;
   border: 1px solid #8E8F99;
   border-radius: 4px;
-  margin-bottom: 8%;
+  margin-bottom: 8px;
 }
 
 .features-item__header {
